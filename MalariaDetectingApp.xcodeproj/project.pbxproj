@@ -3,19 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D22263E2456B03200F2D447 /* Malaria.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4D22263D2456B03200F2D447 /* Malaria.mlmodel */; };
+		4D2226402456C6F100F2D447 /* TestUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D22263F2456C6F100F2D447 /* TestUploadView.swift */; };
+		4D2226432456D08F00F2D447 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2226422456D08F00F2D447 /* ImageCollectionViewCell.swift */; };
 		4D65E4302449492800563128 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D65E42F2449492800563128 /* AppDelegate.swift */; };
 		4D65E4322449492800563128 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D65E4312449492800563128 /* SceneDelegate.swift */; };
 		4D65E4342449492800563128 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D65E4332449492800563128 /* ViewController.swift */; };
 		4D65E4372449492800563128 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D65E4352449492800563128 /* Main.storyboard */; };
 		4D65E4392449492B00563128 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D65E4382449492B00563128 /* Assets.xcassets */; };
 		4D65E43C2449492B00563128 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D65E43A2449492B00563128 /* LaunchScreen.storyboard */; };
+		4DB0FC5C245ABF6D00231EAC /* PatientsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB0FC5B245ABF6D00231EAC /* PatientsModel.swift */; };
+		4DB0FC5E245AC31200231EAC /* PatientListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB0FC5D245AC31200231EAC /* PatientListView.swift */; };
+		4DB0FC60245AC66B00231EAC /* patientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB0FC5F245AC66B00231EAC /* patientTableViewCell.swift */; };
+		4DB0FC62245B998800231EAC /* NewPatientVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB0FC61245B998800231EAC /* NewPatientVC.swift */; };
+		4DBFBAC3245906E600EB5026 /* MalariaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBFBAC2245906E600EB5026 /* MalariaModel.swift */; };
+		4DBFBAC5245910BA00EB5026 /* MLResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBFBAC4245910BA00EB5026 /* MLResultView.swift */; };
+		4DBFBAC72459217300EB5026 /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBFBAC62459217300EB5026 /* ResultTableViewCell.swift */; };
+		A10518E9DAED23592C4810A3 /* Pods_MalariaDetectingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FA218A9BFADC6CA746B9143 /* Pods_MalariaDetectingApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D22263D2456B03200F2D447 /* Malaria.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Malaria.mlmodel; sourceTree = "<group>"; };
+		4D22263F2456C6F100F2D447 /* TestUploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUploadView.swift; sourceTree = "<group>"; };
+		4D2226422456D08F00F2D447 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		4D65E42C2449492800563128 /* MalariaDetectingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MalariaDetectingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D65E42F2449492800563128 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D65E4312449492800563128 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,16 @@
 		4D65E4382449492B00563128 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D65E43B2449492B00563128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D65E43D2449492B00563128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DB0FC5B245ABF6D00231EAC /* PatientsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientsModel.swift; sourceTree = "<group>"; };
+		4DB0FC5D245AC31200231EAC /* PatientListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientListView.swift; sourceTree = "<group>"; };
+		4DB0FC5F245AC66B00231EAC /* patientTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = patientTableViewCell.swift; sourceTree = "<group>"; };
+		4DB0FC61245B998800231EAC /* NewPatientVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPatientVC.swift; sourceTree = "<group>"; };
+		4DBFBAC2245906E600EB5026 /* MalariaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MalariaModel.swift; sourceTree = "<group>"; };
+		4DBFBAC4245910BA00EB5026 /* MLResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLResultView.swift; sourceTree = "<group>"; };
+		4DBFBAC62459217300EB5026 /* ResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
+		5FA218A9BFADC6CA746B9143 /* Pods_MalariaDetectingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MalariaDetectingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6984BF7F3D8585CE9E51FB27 /* Pods-MalariaDetectingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MalariaDetectingApp.release.xcconfig"; path = "Target Support Files/Pods-MalariaDetectingApp/Pods-MalariaDetectingApp.release.xcconfig"; sourceTree = "<group>"; };
+		8D601EABB0277F29150EDE97 /* Pods-MalariaDetectingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MalariaDetectingApp.debug.xcconfig"; path = "Target Support Files/Pods-MalariaDetectingApp/Pods-MalariaDetectingApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A10518E9DAED23592C4810A3 /* Pods_MalariaDetectingApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +67,8 @@
 			children = (
 				4D65E42E2449492800563128 /* MalariaDetectingApp */,
 				4D65E42D2449492800563128 /* Products */,
+				BBAA27AE72ABE682087615B5 /* Pods */,
+				FD0D67A7CD9734D45E4B7F0E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,11 +87,38 @@
 				4D65E4312449492800563128 /* SceneDelegate.swift */,
 				4D65E4332449492800563128 /* ViewController.swift */,
 				4D65E4352449492800563128 /* Main.storyboard */,
+				4D22263D2456B03200F2D447 /* Malaria.mlmodel */,
 				4D65E4382449492B00563128 /* Assets.xcassets */,
 				4D65E43A2449492B00563128 /* LaunchScreen.storyboard */,
 				4D65E43D2449492B00563128 /* Info.plist */,
+				4D22263F2456C6F100F2D447 /* TestUploadView.swift */,
+				4D2226422456D08F00F2D447 /* ImageCollectionViewCell.swift */,
+				4DBFBAC2245906E600EB5026 /* MalariaModel.swift */,
+				4DBFBAC4245910BA00EB5026 /* MLResultView.swift */,
+				4DBFBAC62459217300EB5026 /* ResultTableViewCell.swift */,
+				4DB0FC5B245ABF6D00231EAC /* PatientsModel.swift */,
+				4DB0FC5D245AC31200231EAC /* PatientListView.swift */,
+				4DB0FC5F245AC66B00231EAC /* patientTableViewCell.swift */,
+				4DB0FC61245B998800231EAC /* NewPatientVC.swift */,
 			);
 			path = MalariaDetectingApp;
+			sourceTree = "<group>";
+		};
+		BBAA27AE72ABE682087615B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D601EABB0277F29150EDE97 /* Pods-MalariaDetectingApp.debug.xcconfig */,
+				6984BF7F3D8585CE9E51FB27 /* Pods-MalariaDetectingApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FD0D67A7CD9734D45E4B7F0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FA218A9BFADC6CA746B9143 /* Pods_MalariaDetectingApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D65E4402449492B00563128 /* Build configuration list for PBXNativeTarget "MalariaDetectingApp" */;
 			buildPhases = (
+				D41F96EFF0A14BBDBE75F42B /* [CP] Check Pods Manifest.lock */,
 				4D65E4282449492800563128 /* Sources */,
 				4D65E4292449492800563128 /* Frameworks */,
 				4D65E42A2449492800563128 /* Resources */,
+				5FD8343C1E02EC5629811F35 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +189,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5FD8343C1E02EC5629811F35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MalariaDetectingApp/Pods-MalariaDetectingApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MalariaDetectingApp/Pods-MalariaDetectingApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MalariaDetectingApp/Pods-MalariaDetectingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D41F96EFF0A14BBDBE75F42B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MalariaDetectingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D65E4282449492800563128 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DBFBAC5245910BA00EB5026 /* MLResultView.swift in Sources */,
+				4DB0FC62245B998800231EAC /* NewPatientVC.swift in Sources */,
+				4D2226432456D08F00F2D447 /* ImageCollectionViewCell.swift in Sources */,
+				4D2226402456C6F100F2D447 /* TestUploadView.swift in Sources */,
+				4DB0FC5C245ABF6D00231EAC /* PatientsModel.swift in Sources */,
+				4DB0FC5E245AC31200231EAC /* PatientListView.swift in Sources */,
+				4DB0FC60245AC66B00231EAC /* patientTableViewCell.swift in Sources */,
 				4D65E4342449492800563128 /* ViewController.swift in Sources */,
+				4DBFBAC3245906E600EB5026 /* MalariaModel.swift in Sources */,
 				4D65E4302449492800563128 /* AppDelegate.swift in Sources */,
+				4D22263E2456B03200F2D447 /* Malaria.mlmodel in Sources */,
+				4DBFBAC72459217300EB5026 /* ResultTableViewCell.swift in Sources */,
 				4D65E4322449492800563128 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +390,7 @@
 		};
 		4D65E4412449492B00563128 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D601EABB0277F29150EDE97 /* Pods-MalariaDetectingApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +408,7 @@
 		};
 		4D65E4422449492B00563128 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6984BF7F3D8585CE9E51FB27 /* Pods-MalariaDetectingApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
