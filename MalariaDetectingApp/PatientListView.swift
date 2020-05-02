@@ -11,13 +11,25 @@ import UIKit
 
 class PatientListView: UITableViewController {
     
-    var patientsModel = PatientsModel()
+    
+    var testResults = TestResults()
+    var wantToSave = false
+    var patientIndex = 0
     
     @IBOutlet var patientTableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        
+        patientTableView.reloadData()
+    }
+    
+    @IBAction func addButtonPressed(_ sender: UIButton) {
+        performSegue(withIdentifier: "addPatientSegue", sender: sender)
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -43,17 +55,31 @@ class PatientListView: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let index = indexPath.item
-        let patient = patientsModel.patientLst[index]
         
-        
-        
+        if (wantToSave) {
+            print("attempt to save: \(testResults.resultCount())\n")
+            patientsModel.patientLst[index].results.addResults(results: testResults)
+            print("patientsModel: \(patientsModel.patientLst[index].resultCount())\n")
+            wantToSave = false
+            dismiss(animated: true, completion: nil)
+        } else {
+            patientIndex = index
+            performSegue(withIdentifier: "patientListToPatientProfileSegue", sender: nil)
+        }
     }
 }
 
 extension PatientListView: UINavigationControllerDelegate {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
+        if let identifier = segue.identifier {
+            if identifier == "patientListToPatientProfileSegue" {
+                if let dest = segue.destination as? PatientProfileVC {
+                    // PatientProfileVC
+                    dest.patientIndex = patientIndex
+                }
+            }
+        }
     }
 }
     

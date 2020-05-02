@@ -20,6 +20,7 @@
 		4DB0FC5E245AC31200231EAC /* PatientListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB0FC5D245AC31200231EAC /* PatientListView.swift */; };
 		4DB0FC60245AC66B00231EAC /* patientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB0FC5F245AC66B00231EAC /* patientTableViewCell.swift */; };
 		4DB0FC62245B998800231EAC /* NewPatientVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB0FC61245B998800231EAC /* NewPatientVC.swift */; };
+		4DB0FC64245BF7D400231EAC /* PatientProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB0FC63245BF7D400231EAC /* PatientProfileVC.swift */; };
 		4DBFBAC3245906E600EB5026 /* MalariaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBFBAC2245906E600EB5026 /* MalariaModel.swift */; };
 		4DBFBAC5245910BA00EB5026 /* MLResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBFBAC4245910BA00EB5026 /* MLResultView.swift */; };
 		4DBFBAC72459217300EB5026 /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBFBAC62459217300EB5026 /* ResultTableViewCell.swift */; };
@@ -42,6 +43,7 @@
 		4DB0FC5D245AC31200231EAC /* PatientListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientListView.swift; sourceTree = "<group>"; };
 		4DB0FC5F245AC66B00231EAC /* patientTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = patientTableViewCell.swift; sourceTree = "<group>"; };
 		4DB0FC61245B998800231EAC /* NewPatientVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPatientVC.swift; sourceTree = "<group>"; };
+		4DB0FC63245BF7D400231EAC /* PatientProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientProfileVC.swift; sourceTree = "<group>"; };
 		4DBFBAC2245906E600EB5026 /* MalariaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MalariaModel.swift; sourceTree = "<group>"; };
 		4DBFBAC4245910BA00EB5026 /* MLResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLResultView.swift; sourceTree = "<group>"; };
 		4DBFBAC62459217300EB5026 /* ResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				4DB0FC5D245AC31200231EAC /* PatientListView.swift */,
 				4DB0FC5F245AC66B00231EAC /* patientTableViewCell.swift */,
 				4DB0FC61245B998800231EAC /* NewPatientVC.swift */,
+				4DB0FC63245BF7D400231EAC /* PatientProfileVC.swift */,
 			);
 			path = MalariaDetectingApp;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				4DB0FC5E245AC31200231EAC /* PatientListView.swift in Sources */,
 				4DB0FC60245AC66B00231EAC /* patientTableViewCell.swift in Sources */,
 				4D65E4342449492800563128 /* ViewController.swift in Sources */,
+				4DB0FC64245BF7D400231EAC /* PatientProfileVC.swift in Sources */,
 				4DBFBAC3245906E600EB5026 /* MalariaModel.swift in Sources */,
 				4D65E4302449492800563128 /* AppDelegate.swift in Sources */,
 				4D22263E2456B03200F2D447 /* Malaria.mlmodel in Sources */,

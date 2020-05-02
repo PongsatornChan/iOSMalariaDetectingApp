@@ -18,8 +18,6 @@ class NewPatientVC: UIViewController, UIImagePickerControllerDelegate,
     @IBOutlet weak var genderTextField: UITextField!
     @IBOutlet weak var profileImageView: UIImageView!
     
-    var patientsModel:PatientsModel? = nil
-    
     var imagePickerController = UIImagePickerController()
     
     override func viewDidLoad() {
@@ -51,13 +49,13 @@ class NewPatientVC: UIViewController, UIImagePickerControllerDelegate,
         
         let newPatient = Patient(firstname: firstname, lastname: lastname, age: age, gender: gender, image: image, results: TestResults())
         
-        if (patientsModel != nil) {
-            patientsModel?.addPatient(patient: newPatient)
+        patientsModel.addPatient(patient: newPatient)
+        print("patientsModel in NewPatientVC has: \(patientsModel.patientLst.count) patients.")
+        if let nav = self.navigationController {
+            nav.popViewController(animated: true)
         } else {
-            print("patientsModel in NewPatientVC is nil")
+            self.dismiss(animated: true, completion: nil)
         }
-        
-        dismiss(animated: true, completion: nil)
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {

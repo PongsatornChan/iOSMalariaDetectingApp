@@ -105,7 +105,6 @@ extension TestUploadView: UICollectionViewDelegate, UICollectionViewDataSource, 
 extension TestUploadView: UINavigationControllerDelegate {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        print("prepare being called\n")
         if let identifier = segue.identifier {
             if identifier == "testToResultSegue" {
                 if let dest = segue.destination as? MLResultView {

@@ -24,12 +24,11 @@ class MLResultView: UIViewController {
     }
     
     @IBAction func closeButtonPressed(_ sender: UIButton) {
-        _ = navigationController?.popViewController(animated: true)
         dismiss(animated: true, completion: nil)
     }
     
     @IBAction func saveButtonPressed(_ sender: UIButton) {
-        
+        performSegue(withIdentifier: "MLResultToPatientListSegue", sender: sender)
     }
     
 }
@@ -58,5 +57,18 @@ extension MLResultView: UITableViewDelegate, UITableViewDataSource {
         }
     }
     
-    
+}
+
+extension MLResultView: UINavigationControllerDelegate {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let identifier = segue.identifier {
+            if identifier == "MLResultToPatientListSegue" {
+                if let dest = segue.destination as? PatientListView {
+                    print("testResults \(testResults.resultCount())\n")
+                    dest.testResults = testResults
+                    dest.wantToSave = true
+                }
+            }
+        }
+    }
 }
