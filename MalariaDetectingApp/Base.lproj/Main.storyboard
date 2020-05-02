@@ -127,11 +127,11 @@
             <objects>
                 <viewController id="kBh-Rq-h2x" customClass="TestUploadView" customModule="MalariaDetectingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cVh-jJ-fco">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Z1Z-01-1hW">
-                                <rect key="frame" x="10" y="768" width="394" height="30"/>
+                                <rect key="frame" x="10" y="773" width="394" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qPB-ND-RSC">
                                         <rect key="frame" x="0.0" y="0.0" width="192" height="30"/>
@@ -169,14 +169,14 @@
                                 </subviews>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wKO-ZA-roa">
-                                <rect key="frame" x="10" y="5" width="128" height="128"/>
+                                <rect key="frame" x="10" y="93" width="128" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="EiR-MJ-dL7"/>
                                     <constraint firstAttribute="width" constant="128" id="d1A-r3-kMy"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Firstname Lastname" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ROR-bu-AHE">
-                                <rect key="frame" x="146" y="49" width="258" height="40"/>
+                                <rect key="frame" x="146" y="137" width="258" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="sWk-ZN-RND"/>
                                 </constraints>
@@ -185,7 +185,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="x21-YV-x7L">
-                                <rect key="frame" x="10" y="143" width="394" height="615"/>
+                                <rect key="frame" x="10" y="231" width="394" height="532"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="kvM-YL-W33">
                                     <size key="itemSize" width="190" height="232"/>
@@ -575,7 +575,7 @@
             <objects>
                 <tableViewController id="OkE-Xx-gQu" customClass="PatientListView" customModule="MalariaDetectingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="AH4-qi-bdD">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
@@ -668,11 +668,11 @@
             <objects>
                 <viewController id="sXL-kh-aAI" customClass="NewPatientVC" customModule="MalariaDetectingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rgj-Lc-l0l">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Given Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="efN-Hh-B5h">
-                                <rect key="frame" x="20" y="60" width="374" height="34"/>
+                                <rect key="frame" x="20" y="148" width="374" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="Ej2-xZ-05j"/>
                                 </constraints>
@@ -680,7 +680,7 @@
                                 <textInputTraits key="textInputTraits" textContentType="given-name"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G3N-LW-cvl">
-                                <rect key="frame" x="20" y="20" width="45" height="30"/>
+                                <rect key="frame" x="20" y="108" width="45" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="OHb-cw-Bku"/>
                                 </constraints>
@@ -689,7 +689,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Family Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="t6w-iE-Svq">
-                                <rect key="frame" x="20" y="102" width="374" height="34"/>
+                                <rect key="frame" x="20" y="190" width="374" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="Uwg-80-z46"/>
                                 </constraints>
@@ -697,7 +697,7 @@
                                 <textInputTraits key="textInputTraits" textContentType="family-name"/>
                             </textField>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="KOm-VP-B8U">
-                                <rect key="frame" x="20" y="156" width="374" height="30"/>
+                                <rect key="frame" x="20" y="244" width="374" height="30"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yjg-TJ-WxH">
                                         <rect key="frame" x="0.0" y="0.0" width="187" height="30"/>
@@ -720,7 +720,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="cYu-wv-2IU">
-                                <rect key="frame" x="20" y="194" width="374" height="34"/>
+                                <rect key="frame" x="20" y="282" width="374" height="34"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Age" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I0k-8o-gD4">
                                         <rect key="frame" x="0.0" y="0.0" width="187" height="34"/>
@@ -738,13 +738,13 @@
                                 </subviews>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="w5F-Oy-L8f">
-                                <rect key="frame" x="87" y="238" width="240" height="240"/>
+                                <rect key="frame" x="87" y="326" width="240" height="240"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="w5F-Oy-L8f" secondAttribute="height" multiplier="1:1" id="hep-aD-obU"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WO8-a7-00e">
-                                <rect key="frame" x="117" y="488" width="180" height="30"/>
+                                <rect key="frame" x="117" y="576" width="180" height="30"/>
                                 <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="uwB-YP-q7C"/>
@@ -812,23 +812,23 @@
             <objects>
                 <viewController id="c7O-bM-JV1" customClass="PatientProfileVC" customModule="MalariaDetectingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FK1-7q-i6U">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="J7q-Ou-1GK">
-                                <rect key="frame" x="15" y="10" width="157.5" height="157.5"/>
+                                <rect key="frame" x="15" y="98" width="157.5" height="157.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="J7q-Ou-1GK" secondAttribute="height" multiplier="1:1" id="dCW-qk-iEC"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="27H-fY-838">
-                                <rect key="frame" x="180" y="78.5" width="226" height="20.5"/>
+                                <rect key="frame" x="180" y="166.5" width="226" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xIx-5d-ZwY">
-                                <rect key="frame" x="180" y="109" width="30" height="30"/>
+                                <rect key="frame" x="180" y="197" width="30" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="j8r-f4-HBp"/>
                                 </constraints>
@@ -837,7 +837,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test Results" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZX5-d8-6RK">
-                                <rect key="frame" x="15" y="187.5" width="114.5" height="30"/>
+                                <rect key="frame" x="15" y="275.5" width="114.5" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="ier-4c-tL6"/>
                                 </constraints>
@@ -846,10 +846,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6Hc-YN-vkS">
-                                <rect key="frame" x="10" y="227.5" width="394" height="580.5"/>
+                                <rect key="frame" x="10" y="315.5" width="394" height="497.5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="resultTableCell" rowHeight="128" id="Dlr-qO-Zlk" customClass="ResultTableViewCell" customModule="MalariaDetectingApp" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="profileTableCell" rowHeight="128" id="Dlr-qO-Zlk" customClass="ProfileTableViewCell" customModule="MalariaDetectingApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="394" height="128"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Dlr-qO-Zlk" id="fHA-dQ-UhJ">
@@ -894,15 +894,15 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="UninfectLabel" destination="1fb-KF-ocN" id="AhY-fC-PBl"/>
-                                            <outlet property="parasitLabel" destination="dV7-CY-pCj" id="4Mh-D3-0BP"/>
-                                            <outlet property="resultImageView" destination="Ak8-r6-XEy" id="YYn-6f-SAU"/>
+                                            <outlet property="cellImageView" destination="Ak8-r6-XEy" id="TOP-MS-M7U"/>
+                                            <outlet property="parasitLabel" destination="dV7-CY-pCj" id="VqP-lo-Rga"/>
+                                            <outlet property="uninfectLabel" destination="1fb-KF-ocN" id="qcV-ue-LpK"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gender" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HaO-ey-w3U">
-                                <rect key="frame" x="230" y="109" width="57" height="30"/>
+                                <rect key="frame" x="230" y="197" width="57" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="b8S-s1-3XQ"/>
                                 </constraints>
@@ -911,7 +911,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ciB-EB-YSc">
-                                <rect key="frame" x="294" y="187.5" width="100" height="30"/>
+                                <rect key="frame" x="294" y="275.5" width="100" height="30"/>
                                 <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="261-3n-g60"/>
@@ -962,7 +962,8 @@
                         <outlet property="genderLabel" destination="HaO-ey-w3U" id="BTm-bd-UgX"/>
                         <outlet property="nameLabel" destination="27H-fY-838" id="1KY-Pb-lL1"/>
                         <outlet property="profileImageView" destination="J7q-Ou-1GK" id="Lh1-qR-BUI"/>
-                        <outlet property="resultsTableView" destination="6Hc-YN-vkS" id="lOa-eC-qqI"/>
+                        <outlet property="profileTableView" destination="6Hc-YN-vkS" id="WyA-eb-w82"/>
+                        <outlet property="testButton" destination="ciB-EB-YSc" id="vQr-RF-aoO"/>
                         <segue destination="kBh-Rq-h2x" kind="show" identifier="profileToTestSegue" id="6zX-lp-4YQ"/>
                     </connections>
                 </viewController>
@@ -1015,7 +1016,7 @@
         <image name="person.crop.rectangle" catalog="system" width="64" height="46"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ygV-2C-09e"/>
+        <segue reference="2im-g7-DfR"/>
         <segue reference="6zX-lp-4YQ"/>
     </inferredMetricsTieBreakers>
 </document>
